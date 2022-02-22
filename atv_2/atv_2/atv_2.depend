@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1645537175 source:c:\temp\fatec-alg\atv_2\atv_2\main.c
+	<stdio.h>
+	<stdlib.h>
+

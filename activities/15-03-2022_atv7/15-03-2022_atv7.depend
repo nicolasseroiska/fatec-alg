@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1647351034 source:c:\temp\fatec-alg\activities\15-03-2022_atv7\main.c
+	<stdio.h>
+	<stdlib.h>
+

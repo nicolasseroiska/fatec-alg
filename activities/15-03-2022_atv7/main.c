@@ -14,6 +14,7 @@ int main()
         scanf("%lf", &side);
         printf("The square's area is: %.2lf", side*side);
     }
+
     else if(entered_char == 'r'){
         double width, length;
 
@@ -25,6 +26,7 @@ int main()
 
         printf("The rectangle's area is: %.2lf", width*length);
     }
+
     else if(entered_char == 'c'){
         double radious;
         printf("We're considering PI as 3.14");
@@ -32,6 +34,7 @@ int main()
         scanf("%lf", &radious);
         printf("The circle's area is: %.2lf", radious*radious*3.14);
     }
+
     else{
         printf("Invalid input. Please re-run the program.");
     }

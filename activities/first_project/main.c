@@ -4,6 +4,7 @@
 
 void main(void)
 {
+    /* This program prints 3 variables previously settled and 1 read from the user input.*/
     char c = 'A';
     int i = 30;
     float f = 50.25;
@@ -24,14 +25,4 @@ void main(void)
     printf("Please, enter a number (can be a float one): ");
     scanf("%lf", &d);
     printf("\n The number you entered was: %lf",d);
-
-    if(1 < 2){
-        printf("\nWe've entered the if's block:\n \n ");
-
-        for(int i = 0; i <=10; i++)
-        {
-            printf("counting: %d \n ",i);
-        }
-    }
-
 }

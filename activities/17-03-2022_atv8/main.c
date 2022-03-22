@@ -3,6 +3,9 @@
 
 int main()
 {
+    /*This program calculates the broker's comission value
+    by considering the transaction amount*/
+
     double transaction, broker_comission;
 
     printf("Please, enter with the transaction's value: ");

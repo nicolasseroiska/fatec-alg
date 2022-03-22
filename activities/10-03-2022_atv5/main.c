@@ -3,7 +3,7 @@
 
 int main()
 {
-    //This program was made by Nicolas; it shows the biggest number entered by the user.
+    //This program shows the biggest number entered by the user.
 
     double number1, number2, number3;
 

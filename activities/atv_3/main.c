@@ -3,16 +3,19 @@
 
 int main()
 {
-    double valor, dolar;
-    printf("Entre com um valor em reais: ");
-    scanf("%lf", &valor);
-    printf("\nO valor lido foi R$%.2lf", valor);
+    /*This program reads an input value in reais and then convert it to dolar*/
 
-    printf("\nEntre com o cambio do dolar: ");
+    double valor, dolar;
+
+    printf("Enter with a brl input: ");
+    scanf("%lf", &valor);
+    printf("\nThe read value was R$%.2lf", valor);
+
+    printf("\nEnter with the dolar's currency exchange: ");
     scanf("%lf", &dolar);
-    printf("\nO valor lido foi R$%.2lf", dolar);
+    printf("\nThe read value was %.2lf", dolar);
 
     printf("\n------------------------------");
-    printf("\nEsse valor em usd eh: $%.2lf  |", valor/dolar);
+    printf("\nThe read brl input in usd is: $%.2lf  |", valor/dolar);
     printf("\n------------------------------");
 }

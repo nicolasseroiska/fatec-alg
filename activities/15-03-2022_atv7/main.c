@@ -3,6 +3,10 @@
 
 int main()
 {
+
+    /*This program calculates a figure's area.
+    The user can choose the figure's area he wants to know by a shown menu.*/
+
     char entered_char;
 
     printf("Enter with a char ('s' for square; 'r' for rectangle; 'c' for circle.):");

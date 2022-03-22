@@ -3,6 +3,9 @@
 
 int main()
 {
+
+    /*This program calculates a salesman comission amount*/
+
     int salesman_code;
     float sell_amount;
     float commission_percentage;

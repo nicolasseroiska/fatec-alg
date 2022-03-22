@@ -3,6 +3,9 @@
 
 int main()
 {
+
+    /*This program puts 3 number in ascending order.*/
+
     double number1, number2, number3;
 
     printf("Enter with the 1st number: ");

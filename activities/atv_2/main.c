@@ -3,7 +3,11 @@
 
 int main()
 {
+    /* This program reads 2 variables from the user
+    and then prints it's sum, subtraction, product and division.*/
+
     double result, x, y;
+
     printf("Enter with the integer number x: ");
     scanf("%lf", &x);
     printf("Enter with the integer number y: ");

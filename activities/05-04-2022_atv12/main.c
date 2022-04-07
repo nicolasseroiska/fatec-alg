@@ -10,12 +10,11 @@ int main()
     printf("Enter with the quantity of Fibonacci numbers you want to print: ");
     scanf("%d", &n);
     printf("\n");
-    aux1 = 1; aux2 = 1; act = 1;
+    aux1 = 1; aux2 = 1; act = 0;
 
+    for(int i = 0; i <= n; i++){
+        printf("%d ", act);
 
-    for(int i = 1; i <= n; i++){
-
-        printf("%d ", aux1);
         aux2 = aux1;
         aux1 = act;
         act += aux2;
